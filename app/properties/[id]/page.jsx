@@ -1,6 +1,14 @@
 "use client";
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
+import { fetchProperty } from "@/utils/requests";
 
-const PropertyPage = () => {
+const PropertyPage = async () => {
+  const {id} = useParams();
+
+  const [property, setProperty] = useState(null);
+
+
   return <div>PropertyPage</div>;
 };
 

@@ -13,7 +13,6 @@ const Navbar = () => {
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  console.log(isProfileMenuOpen);
 
   const pathname = usePathname();
 
