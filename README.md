@@ -2,10 +2,6 @@
 
 *A web application to help you find your next rental property.*
 
-This is the main project from my Next 14 From Scratch Course.
-
-The `_theme_files` folder contains the pure HTML files with Tailwind classes.
-
 ## Features
 
 Here are some of the current features that Property Pulse has:
